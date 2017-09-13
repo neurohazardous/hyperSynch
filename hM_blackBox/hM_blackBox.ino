@@ -1,4 +1,4 @@
-//This will send a 3
+//This will send 3 TTL pulses to the selected outputsof the Arduino
 // https://www.arduino.cc/en/Tutorial/Switch
 const int switchPin = 4; //Switch Connected to PIN 4
 const int TTLpinP1 = 8; //Output parallel 1
