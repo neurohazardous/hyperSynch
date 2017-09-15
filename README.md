@@ -5,11 +5,16 @@ One of the biggest challenges when doing [EEG hyperscanning](http://www.scienced
 ## The Basic Idea
 This setup lets you use a small button to send a "synchronizing" signal to x amount of EEG systems + an audio recording + video recording so that all of this data can be synchronized for offline analysis.
 
-
 ## Requiered knowledge/skills
 * Basic handling of a soldering iron and drill
-* Basic programming skills (Arduino)
+* Basic Arduino programming skills 
 
+## The Tools
+* Drill
+* Cutter 
+* Sand paper
+* Screwdriver
+* Soldering iron
 
 ## The Materials
 * x1 6.35mm Jack (not [sure if this one](https://www.digikey.ca/product-detail/en/switchcraft-inc/11/SC1085-ND/109515) or [this one](https://www.digikey.ca/product-detail/en/switchcraft-inc/12A/SC1089-ND/109527)
@@ -21,8 +26,15 @@ This setup lets you use a small button to send a "synchronizing" signal to x amo
 * x1 [Button]()
 * x1 [Sharpie Metallic Permanent Marker](https://www.staples.ca/en/Sharpie-Metallic-Permanent-Markers-Fine-Tip-Silver-2-Pack/product_586069_1-CA_1_20001)
 
+## The Arduino code
+The code sends 3 TTL pulses (50ms each with 500ms between them) from pins 6, 7, and 8 when the status in pin 4 (where we will connect a button) goes from high to low (pull-up resistor; you can read more about it [here](https://learn.sparkfun.com/tutorials/pull-up-resistors))
+
 ## Building the box
-1. Using the Sharpie, trace 
+1. Using the Sharpie, trace the lower shape of the TRS, BNC, and DB-25 on the upper part of the project box
+2. Usign the drill, pierce the project box so that the connectors can go through
+3. Using the sand paper, sand any rough edges around the wholes you just made
+4. Using the soldering iron, solder...
+  4. asdf
 
 ## The Setup
 
