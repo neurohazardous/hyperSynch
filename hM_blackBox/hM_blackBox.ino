@@ -19,27 +19,27 @@ void loop()
     switchState = digitalRead(switchPin); //Read the status of the Switch
     if (switchState == LOW) //If the switch is pressed
     {
-        digitalWrite(TTLpinP1, HIGH); //LED ON
+        digitalWrite(TTLpinP1, HIGH); //ON
         digitalWrite(TTLpinP2, HIGH);
         digitalWrite(TTLpinJ1, HIGH);
-        delay(50); //20ms Pulse
-        digitalWrite(TTLpinP1, LOW); //LED ON
+        delay(50); //50ms Pulse
+        digitalWrite(TTLpinP1, LOW); //OFF
         digitalWrite(TTLpinP2, LOW);
         digitalWrite(TTLpinJ1, LOW);
         delay(500); // ISI 500ms
-        digitalWrite(TTLpinP1, HIGH); //LED ON
+        digitalWrite(TTLpinP1, HIGH); //ON
         digitalWrite(TTLpinP2, HIGH);
         digitalWrite(TTLpinJ1, HIGH);
-        delay(50); //20ms Pulse
-        digitalWrite(TTLpinP1, LOW); //LED ON
+        delay(50); //50ms Pulse
+        digitalWrite(TTLpinP1, LOW); //OFF
         digitalWrite(TTLpinP2, LOW);
         digitalWrite(TTLpinJ1, LOW);
         delay(500); // ISI 500ms
-        digitalWrite(TTLpinP1, HIGH); //LED ON
+        digitalWrite(TTLpinP1, HIGH); //ON
         digitalWrite(TTLpinP2, HIGH);
         digitalWrite(TTLpinJ1, HIGH);
-        delay(50); //20ms Pulse
-        digitalWrite(TTLpinP1, LOW); //LED ON
+        delay(50); //50ms Pulse
+        digitalWrite(TTLpinP1, LOW); //OFF
         digitalWrite(TTLpinP2, LOW);
         digitalWrite(TTLpinJ1, LOW);
         delay(500); // ISI 500ms
