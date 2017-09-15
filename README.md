@@ -34,7 +34,7 @@ The code sends 3 TTL pulses (50ms each with 500ms between them) from pins 6, 7, 
 2. Usign the drill, pierce the project box so that the connectors can go through
 3. Using the sand paper, sand any rough edges around the wholes you just made
 4. Using the soldering iron, solder... 
-    * bla bla
+    4. bla bla
 
 ## The Setup
 
