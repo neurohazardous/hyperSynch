@@ -35,6 +35,7 @@ The code sends 3 TTL pulses (50ms each with 500ms between them) from pins 6, 7, 
 0. Upload the code into the Arduino Uno 
 1. Using the Sharpie, trace the lower shape of the TRS, BNC, and DB-25 on the upper part of the project box
 ![1](https://github.com/neurohazardous/hyperSynch/blob/master/assets/1.JPG)
+Format: ![Alt Text](url)
 2. Usign the drill, pierce the project box so that the connectors can go through
 ![2](https://github.com/neurohazardous/hyperSynch/blob/master/assets/2.JPG)
 3. Using the drill and the cutter, cutout enough of one of the short ends of the project box so that the usb part of the Arduino peeks out of the project box
