@@ -72,6 +72,6 @@ The code sends 3 TTL pulses (50ms each with 500ms between them) from pins 6, 7, 
 
 ## Testing for delays
 Using an oscilloscope, we tested the delays between the TTL pulses. The delay between pulses is about 5μs, which is negligible
-![13](https://github.com/neurohazardous/hyperSynch/blob/master/assets/13.JPG)
+![13](https://github.com/neurohazardous/hyperSynch/blob/master/assets/13.jpg)
 
 
