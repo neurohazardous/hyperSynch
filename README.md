@@ -3,7 +3,7 @@ One of the biggest challenges when doing [EEG hyperscanning](http://www.scienced
 
 
 ## The Basics
-The arduino receives an input signal from the push button through pin 4, which changes its status from high to low (pull-up resistor; you can read more about it [here](https://learn.sparkfun.com/tutorials/pull-up-resistors)). Then it sends out 3 TTL pulses (50ms each with 500ms between them) from pin 6 to a TRS socket (where you can connect a splitter to send the information to both an audio interface + a camera) AND from pins 7, 8 to two parallel ports (where you can connect multiple EEG amplifier systems). Here you can see a basic schematic of the connections and the signal flow. 
+The arduino receives an input signal from a push button through pin 4, which changes its status from high to low (pull-up resistor; you can read more about it [here](https://learn.sparkfun.com/tutorials/pull-up-resistors)). Then it sends out 3 TTL pulses (50ms each with 500ms between them) from pin 6 to a TRS socket (where you can connect a splitter to send the information to both an audio interface + a camera) AND from pins 7, 8 to two parallel ports (where you can connect multiple EEG amplifier systems). Here you can see a basic schematic of the connections and the signal flow. 
 ![diagram](https://github.com/neurohazardous/hyperSynch/blob/master/assets/diagram.png)
 
 
