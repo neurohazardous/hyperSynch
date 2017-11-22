@@ -84,3 +84,7 @@ The pulses in the EEG data will be saved up as event triggers. You can use this 
 ## Testing for delays
 Using an oscilloscope, we tested the delays between the TTL pulses (i.e., between the any of the output signals of the Black Box). The delay between pulses is about 5μs, which is negligible
 ![13](https://github.com/neurohazardous/hyperSynch/blob/master/assets/13.jpg)
+
+
+## Contact info
+Questions, comments or feedback? Feel free to email me to orozcoph@mcmaster.ca
